@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mouflon Recorder</string>
+    <string name="empty">Cannot Read Logs</string>
+    <string name="send">Upload Logs to Server</string>
+    <string name="clear">Clear Stored Logs</string>
+    <string name="search">Search Logs</string>
+    <string name="viewStatistics">View Statistics</string>
+    <string name="basequery">Search for:</string>
+    <string name="hint">Leave blank for all</string>
+    <string name="submitQuery">Submit Query</string>
+    <string name="dialog_auth_message">Enter authorization code to activate:</string>
+    <string name="authcode">Authorization Code</string>
+    <string name="ok">OK</string>
+    <string name="empty_string"></string>
+    <string name="settings">Settings</string>
+    <string name="email_pref">E-mail Address</string>
+    <string name="email_summary">If you enter an e-mail address here, you will no longer be anonymous. This is OPTIONAL</string>
+    <string name="notify_pref">Notify me to Upload</string>
+    <string name="notify_summary">Get a weekly notification to upload your recorded data to our server</string>
+    <string name="upload_pref">Upload Automatically</string>
+    <string name="upload_summary">Automatically upload your data to our server</string>
+    <string name="deleteOnUpload">Delete Data on Upload</string>
+    <string name="thankyou">Thank you for participating in this study. You can now uninstall the MouflonRecorder application.</string>
+</resources>

@@ -1,0 +1,13 @@
+The SET_ACTIVITY_WATCHER permission might be exactly what we need, but it's a signature permission.
+
+Possibly the GET_TASKS permission will suffice.
+
+Or the Logs permission. Activity Manager stores the launched activities in the system logs at level info under the tag ActivityManager
+
+Current theory:
+	Broadcast Receiver that gets the ACTION_SCREEN_ON intent and upon reception, it starts watching logs to see what happens. 
+	
+	Actually, all of the screen on and off events are in the logs. So we just wake up every once in a while and record the screen states and activities from the logs
+	
+	
+Broadcast receiver for BOOT_COMPLETE sets an inexact hourly repeating alarm that will not wake the phone but starts up a service which stores the log   

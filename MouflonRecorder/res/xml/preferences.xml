@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <EditTextPreference 
+        android:key = "email"
+        android:title = "@string/email_pref"
+        android:summary = "@string/email_summary"
+        android:defaultValue = "@string/empty_string" 
+        android:inputType = "textEmailAddress"/>
+    
+    <CheckBoxPreference 
+        android:key = "upload"
+        android:title = "@string/upload_pref"
+        android:summary = "@string/upload_summary"
+        android:defaultValue = "true"/>
+    
+    <CheckBoxPreference 
+        android:key = "notify"
+        android:title = "@string/notify_pref"
+        android:summary = "@string/notify_summary"
+        android:defaultValue = "true"/>
+    
+    <CheckBoxPreference 
+        android:key = "deleteOnUpload"
+        android:title = "@string/deleteOnUpload"
+        android:defaultValue="true" />
+     
+
+</PreferenceScreen>
